@@ -17,7 +17,8 @@ It will also check whether the packages listed in a local requirements.txt have 
 Add the following line to your local requirements.txt file to install this package:
 
 ```
-git+https://github.com/denisecase/datafun-venv-checker.git#egg=datafun-venv-checker
+git+https://github.com/denisecase/datafun_venv_checker.git#egg=datafun_venv_checker
+
 ```
 
 ### Step 2: Activate / Install / Run 

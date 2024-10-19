@@ -4,7 +4,7 @@ Run locally to test.
 From a PowerShell terminal in the root project folder, run:
 
 ```shell
-py datafun-venv-checker/venv_checker.py
+py datafun_venv_checker/venv_checker.py
 ```
 
 Build this package and install locally to test.
