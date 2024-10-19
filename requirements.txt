@@ -1,0 +1,63 @@
+# requirements.txt - list all the packages the project needs
+# Ingnore hashes - they are just used to create comments in the file
+# They will be ignored when we install packages using this file. 
+
+# ======================================================
+# STEP A - CREATE A LOCAL PROJECT VIRTUAL ENV (.venv)
+# ======================================================
+
+# Create your local project virtual environment
+# This step ensures you have an isolated Python environment for your project.
+# This is typically just done once at the beginning of a project.
+# If it gets messed up, we can delete .venv and recreate it at any time. 
+
+# Run the following command to create a virtual environment in the project root.
+### On Windows, Use PowerShell (not cmd) - don't include the #:
+### On Mac/Linux, Use zsh or bash (or PowerShell) - don't include the #:
+# python -m venv .venv
+
+# ======================================================
+# STEP B - ALWAYS ACTIVATE THE (.venv) WHEN WORKING ON YOUR PROJECT
+# ======================================================
+
+# ALWAYS activate the .venv before working on the project.
+# Activate whenever you open a new terminal. 
+
+### Windows Command (don't include the #):
+# .venv\Scripts\activate
+
+### Mac/Linux Command (don't include the #):
+# source .venv/bin/activate
+
+# Verify: When active, you can usually see (.venv) in the terminal.
+
+# If using a Jupyter notebook, select the kernel associated with your project (.venv).
+
+# ======================================================
+# STEP C - INSTALL PACKAGES INTO (.venv) AS NEEDED
+# ======================================================
+
+# Install necessary packages listed below with this command:
+# Keep packages updated with the most recent versions.
+
+# When you identify a new package you want to use, 
+# Just update the list below and re-run this command. 
+
+### Windows Command (don't include the #):
+# py -m pip install --upgrade -r requirements.txt
+
+### Mac/Linux Command (don't include the #):
+# python3 -m pip install --upgrade -r requirements.txt
+
+# When you identify a new package you want to use, 
+# Just update the list below and re-run this command. 
+
+# ======================================================
+# LIST EXTERNAL PACKAGES TO BE INSTALLED
+# ======================================================
+
+# Keep pip upgraded (manages the installation of packages)
+pip
+
+# setuptools is a package development tool used for managing Python packages
+setuptools
